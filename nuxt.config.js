@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   modules: ["@primevue/nuxt-module"],
   primevue: {
     options: {
-      unstyled: true,
+      unstyled: false,
     },
     importPT: { from: path.resolve(__dirname, "./presets/aura/") }, //import and apply preset
   },
