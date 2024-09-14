@@ -4,7 +4,11 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
-  modules: ["@primevue/nuxt-module"],
+  modules: [
+    "@primevue/nuxt-module",
+    "@pinia/nuxt",
+    "@pinia-plugin-persistedstate/nuxt",
+  ],
   primevue: {
     options: {
       unstyled: false,
@@ -16,5 +20,8 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+  pinia: {
+    storesDirs: ["~/store/**"],
   },
 });

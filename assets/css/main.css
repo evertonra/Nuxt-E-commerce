@@ -178,46 +178,6 @@
   --text-color: var(--p-surface-0);
 }
 
-html {
-  font-size: 14px;
-  font-family:
-    "Inter var",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
-  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
-  line-height: normal;
-}
-
-body {
-  margin: 0px;
-  min-height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-  background-color: var(--ground-background);
-  font-weight: normal;
-  color: var(--text-color);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  padding: 1rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-p {
-  line-height: 1.625;
-  margin: 0 0 1rem 0;
-}
-
 .card {
   background: var(--card-background);
   border: var(--card-border);
